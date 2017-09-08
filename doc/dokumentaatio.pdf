@@ -9,21 +9,21 @@ Ohjelma toteutetaan käyttämällä php-kieltä, jolloin alustajärjestelmän t�
 Käyttötapaukset
 
 kts. käyttötapauskaavio.
-[Linkki käyttötapauskaavioon](../securitypoint.jpg)
+[Linkki käyttötapauskaavioon](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/securitypoint.jpg)
 
 
 Käyttäjäryhmät
 
-<u>Vartija</u>
+Vartija
 Vartija pystyy näkemään kaikki hänen alueellensa sallitut henkilöt ja ajoneuvot, sekä selaamaan näitä henkilöitä tehokkaasti.
 
-<u>Vartijan pomo</u>
+Vartijan pomo
 Vartijan pomolla on kaikki samat oikeudet kuin vartijalla, mutta hän pystyy myös poistamaan listalta henkilöitä tai ajoneuvoja, sekä myös muuttamaan henkilöiden tietoja.
 
-<u>Oikeutettu lisääjä</u>
+Oikeutettu lisääjä
 Pystyy lisäämään vartiointilistoille uusia henkilöitä ja ajoneuvoja. Henkikö voi olla vartioinnin tilaavan yrityksen avainhenkilö.
 
-<u>Admin</u>
+Admin
 Ylläpitäjä lisää ja poistaa käyttäjätilejä, eikä voi tehdä muuta. Itse vartiointitehtävät eivät ole hänen asiansa.
 
 
