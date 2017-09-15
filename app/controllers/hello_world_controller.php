@@ -31,6 +31,12 @@ class HelloWorldController extends BaseController {
         // Testaa koodiasi täällä
         View::make('person.html');
     }
+    
+        public static function vehicle() {
+        // Testaa koodiasi täällä
+        View::make('vehicle.html');
+    }
+
 
     public static function edit() {
         // Testaa koodiasi täällä

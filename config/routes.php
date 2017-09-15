@@ -24,6 +24,10 @@ $routes->get('/person', function() {
     HelloWorldController::person();
 });
 
+$routes->get('/vehicle', function() {
+    HelloWorldController::vehicle();
+});
+
 $routes->get('/edit', function() {
     HelloWorldController::edit();
 });

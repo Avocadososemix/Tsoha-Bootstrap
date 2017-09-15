@@ -16,13 +16,14 @@ Aihekuvaus dokumentaatiossa: [linkki valmiiseen aiheeseen](https://github.com/Av
 [Käyttökaavio](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/securitypoint.jpg)
 
 
-Linkit sovelluksen eri sivuille:
+Linkit sovelluksen eri suunnitteluvaiheessa oleville sivuille:
 
 * [Etusivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/)
 * [Kirjautumissivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/login)
 * [Henkilölista](http://lkaranko.users.cs.helsinki.fi/securitycheck/personlist)
 * [Ajoneuvolista](http://lkaranko.users.cs.helsinki.fi/securitycheck/vehiclelist)
 * [Henkilösivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/person)
+* [Ajoneuvosivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/vehicle)
 * [Muokkaussivu henkilöille](http://lkaranko.users.cs.helsinki.fi/securitycheck/edit)
 * [Muokkaussivu ajoneuvoille](http://lkaranko.users.cs.helsinki.fi/securitycheck/editvehicle)
 
