@@ -32,7 +32,7 @@ Hiekkalaatikkosivu on edelleen toistaiseksi online:
 * [Muokkaussivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/hiekkalaatikko)
 
 
-<u>Johdanto</u>
+<h2>Johdanto</h2>
 
 Ohjelman tarkoitus on toimia vartiointialueella kulunvalvontaa tekevien vartijoiden apuna, sallien nopean henkilöiden ja ajoneuvojen haun listasta henkilöistä ja ajoneuvoista joilla on voimassaoleva lupa tulla vartiointialueelle. Ohjelmaan kirjaudutaan joko vartijana, pomona tai henkilönä jolla on lupa lisätä ihmisiä listalle. Ohjelmaa kerää kaikkien aluuelle sallittujen henkilöiden lisäykset yhteen suureen helposti haettavaan listaan. Kun ohjelmaan lisätään henkilöitä, heille voidaan antaa myös tietoja kuten mitä yhtiötä edustavat, tai mikä heidän ammattinimikkeensä on, kuten myös perushenkilötiedot (puh, maili, etc).
 
@@ -40,13 +40,13 @@ Ohjelma toteutetaan käyttämällä php-kieltä, jolloin alustajärjestelmän t�
 
 
 
-<u>Käyttötapaukset</u>
+<h2>Käyttötapaukset</h2>
 
 kts. käyttötapauskaavio.
 [Linkki käyttötapauskaavioon](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/securitypoint.jpg)
 
 
-<u>Käyttäjäryhmät</u>
+<h2>Käyttäjäryhmät</h2>
 
 Vartija
 Vartija pystyy näkemään kaikki hänen alueellensa sallitut henkilöt ja ajoneuvot, sekä selaamaan näitä henkilöitä tehokkaasti.
