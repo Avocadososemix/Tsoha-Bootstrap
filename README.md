@@ -4,7 +4,7 @@ Security Point
 
 Yleisiä linkkejä:
 
-* [Linkki sovellukseeni kun tämä on palvelimella](https://www.cs.helsinki.fi)
+* [Linkki sovellukseeni kun tämä on palvelimella](http://lkaranko.users.cs.helsinki.fi/securitycheck/)
 * [Linkki dokumentaatiooni](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/dokumentaatio.pdf)
 
 ## Työn aihe
@@ -16,10 +16,21 @@ Aihekuvaus dokumentaatiossa: [linkki valmiiseen aiheeseen](https://github.com/Av
 [Käyttökaavio](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/securitypoint.jpg)
 
 
+Linkit sovelluksen eri sivuille:
 
-dokumentaatio.pdf:n sisältö (en pysty avaamaan pdf-tiedostoja GitHubissa):
+* [Etusivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/)
+* [Kirjautumissivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/login)
+* [Henkilölista](http://lkaranko.users.cs.helsinki.fi/securitycheck/personlist)
+* [Ajoneuvolista](http://lkaranko.users.cs.helsinki.fi/securitycheck/vehiclelist)
+* [Henkilösivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/person)
+* [Muokkaussivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/edit)
 
-Johdanto
+Hiekkalaatikkosivu on edelleen toistaiseksi online:
+ 
+* [Muokkaussivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/hiekkalaatikko)
+
+
+<u>Johdanto</u>
 
 Ohjelman tarkoitus on toimia vartiointialueella kulunvalvontaa tekevien vartijoiden apuna, sallien nopean henkilöiden ja ajoneuvojen haun listasta henkilöistä ja ajoneuvoista joilla on voimassaoleva lupa tulla vartiointialueelle. Ohjelmaan kirjaudutaan joko vartijana, pomona tai henkilönä jolla on lupa lisätä ihmisiä listalle. Ohjelmaa kerää kaikkien aluuelle sallittujen henkilöiden lisäykset yhteen suureen helposti haettavaan listaan. Kun ohjelmaan lisätään henkilöitä, heille voidaan antaa myös tietoja kuten mitä yhtiötä edustavat, tai mikä heidän ammattinimikkeensä on, kuten myös perushenkilötiedot (puh, maili, etc).
 
@@ -27,13 +38,13 @@ Ohjelma toteutetaan käyttämällä php-kieltä, jolloin alustajärjestelmän t�
 
 
 
-Käyttötapaukset
+<u>Käyttötapaukset</u>
 
 kts. käyttötapauskaavio.
 [Linkki käyttötapauskaavioon](https://github.com/Avocadososemix/Tsoha-Bootstrap/blob/master/doc/securitypoint.jpg)
 
 
-Käyttäjäryhmät
+<u>Käyttäjäryhmät</u>
 
 Vartija
 Vartija pystyy näkemään kaikki hänen alueellensa sallitut henkilöt ja ajoneuvot, sekä selaamaan näitä henkilöitä tehokkaasti.

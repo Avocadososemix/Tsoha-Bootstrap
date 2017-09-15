@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Henkilö X</h1>
+<!-- Painikkeet tähän -->
+<p>
+    <button class="btn btn-danger">Poista</button> <a href="#" class="btn btn-default">Muokkaa</a>
+</p>
+<!-- Tiedot tulee listana tähän -->
+<ul>
+    <li><strong>Nimi:</strong> Satu</li>
+    <li><strong>Sukunimi:</strong> Sillanpää</li>
+    <li><strong>Maa:</strong> <label class="label label-danger">Suomi</label></li>
+    <li><strong>Henkilötunnus:</strong> 13021974-192-N</li>
+    <li><strong>Puhelinnumero:</strong> 0408633945</li>
+    <li><strong>Nimike:</strong> Myyjä</li>
+    <li><strong>Yhtiö:</strong> Turistirihkama OY</li>
+    <li><strong>Yhteyshenkilö:</strong> Iso Pomo Y</li>
+</ul>
+<!-- Kuvaus tulee tähän -->
+<p>
+    Kuvaus.
+</p>
+{% endblock %}

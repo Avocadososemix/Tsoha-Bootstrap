@@ -7,7 +7,7 @@
 
     <title>
       {% block title %}
-        Tietokantasovellus
+        SecurityCheck
       {% endblock %}
     </title>
 
@@ -33,20 +33,23 @@
             <span class="icon-bar"></span>
           </button>
           <!-- Sovelluksen nimi -->
-          <a class="navbar-brand" href="{{base_path}}">Tsoha Bootstrap</a>
+          <a class="navbar-brand" href="{{base_path}}">SecurityCheck</a>
         </div>
 
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="nav navbar-nav">
             <!-- Navigaation linkit -->
-            <li><a href="{{base_path}}">Etusivu</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+            <li><a href="{{base_path}}/personlist">Henkikölista</a></li>
+            <li><a href="{{base_path}}/vehiclelist">Ajoneuvolista</a></li>
+            <li><a href="{{base_path}}/hiekkalaatikko">Hiekkalaatikko</a></li>
 
-    <div id="main-container">
-      <!-- Dynaaminen sisältö tulee tähän -->
+</ul>
+</div>
+</div>
+</nav>
+
+<div id="main-container">
+    <!-- Dynaaminen sisältö tulee tähän -->
       {% block content %}{% endblock %}
     </div>
 
