@@ -23,7 +23,8 @@ Linkit sovelluksen eri sivuille:
 * [Henkilölista](http://lkaranko.users.cs.helsinki.fi/securitycheck/personlist)
 * [Ajoneuvolista](http://lkaranko.users.cs.helsinki.fi/securitycheck/vehiclelist)
 * [Henkilösivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/person)
-* [Muokkaussivu](http://lkaranko.users.cs.helsinki.fi/securitycheck/edit)
+* [Muokkaussivu henkilöille](http://lkaranko.users.cs.helsinki.fi/securitycheck/edit)
+* [Muokkaussivu ajoneuvoille](http://lkaranko.users.cs.helsinki.fi/securitycheck/editvehicle)
 
 Hiekkalaatikkosivu on edelleen toistaiseksi online:
  

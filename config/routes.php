@@ -28,3 +28,6 @@ $routes->get('/edit', function() {
     HelloWorldController::edit();
 });
 
+$routes->get('/editvehicle', function() {
+    HelloWorldController::editvehicle();
+});

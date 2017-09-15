@@ -37,4 +37,9 @@ class HelloWorldController extends BaseController {
         View::make('edit.html');
     }
 
+    public static function editvehicle() {
+        // Testaa koodiasi täällä
+        View::make('editvehicle.html');
+    }
+
 }

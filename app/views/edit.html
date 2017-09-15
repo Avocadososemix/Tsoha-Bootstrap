@@ -1,33 +1,49 @@
 {% extends "base.html" %}
 {% block content %}
-  <h1>Muokkaa henkilöä Timo Turbo</h1>
+<h1>Muokkaa henkilöä Timo Turbo</h1>
 
-  <form>
+<form>
     <div class="checkbox">
-      <label>
-        <input type="checkbox">
-        Saapunut
-      </label>
+        <label>
+            <input type="checkbox">
+            Saapunut
+        </label>
     </div>
     <div class="form-group">
-      <label>Nimi</label>
-      <input class="form-control" value="The Elder Scrolls V: Skyrim" type="text">
+        <label>Nimi</label>
+        <input class="form-control" value="Timo Turbo" type="text">
     </div>
     <div class="form-group">
-      <label>Henkilöllisyystunnus</label>
-      <input class="form-control" value="11.11.2011" type="text">
+        <label>Sukunimi</label>
+        <input class="form-control" value="Turbo" type="text">
     </div>
     <div class="form-group">
-      <label>Maa</label>
-      <input class="form-control" value="Bethesda Softworks" type="text">
+        <label>Henkilöllisyystunnus</label>
+        <input class="form-control" value="12111999-277S" type="text">
     </div>
     <div class="form-group">
-      <label>Nimike</label>
-      <textarea class="form-control">        The Elder Scrolls V: Skyrim on Bethesda Softworksin kehittämä ja vuonna 2011 Xbox 360:lle, PlayStation 3:lle ja Microsoft Windowsille julkaisema The Elder Scrolls -tietokoneroolipelisarjan videopeli. Skyrim on The Elder Scrolls -sarjan viides osa.
-      </textarea>
+        <label>Kansallisuus</label>
+        <input class="form-control" value="Suomi" type="text">
     </div>
     <div class="form-group">
-      <button type="submit" class="btn btn-primary">Tallenna</button>
+        <label>Puhelinnumero</label>
+        <input class="form-control" value="43328897" type="number">
     </div>
-  </form>
+    <div class="form-group">
+        <label>Ammattinimike</label>
+        <textarea class="form-control">Opas
+        </textarea>
+    </div>
+    <div class="form-group">
+        <label>Yritys</label>
+        <input class="form-control" value="RahatPoesTuristeilt AB" type="text">
+    </div>
+    <div class="form-group">
+        <label>Yhteyshenkilö</label>
+        <input class="form-control" value="Timon Pomo" type="text">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Tallenna</button>
+    </div>
+</form>
 {% endblock %}
