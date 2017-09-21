@@ -1,6 +1,6 @@
 # Tietokantasovelluksen esittelysivu
 
-Security Point
+<h2>Security Point</h2>
 
 Yleisiä linkkejä:
 
